@@ -34,5 +34,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>So that the rider can track your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>So that the Uber driver can find you</string>
 </dict>
 </plist>

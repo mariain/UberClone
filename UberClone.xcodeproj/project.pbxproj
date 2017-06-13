@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3C00BE1EE4CEAA0044AC20 /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C00BD1EE4CEAA0044AC20 /* RiderViewController.swift */; };
 		1F8EFC311EC6D9AF0022BD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EFC301EC6D9AF0022BD9A /* AppDelegate.swift */; };
 		1F8EFC331EC6D9AF0022BD9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EFC321EC6D9AF0022BD9A /* ViewController.swift */; };
 		1F8EFC361EC6D9AF0022BD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8EFC341EC6D9AF0022BD9A /* Main.storyboard */; };
@@ -14,6 +15,17 @@
 		1F8EFC3B1EC6D9AF0022BD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8EFC391EC6D9AF0022BD9A /* LaunchScreen.storyboard */; };
 		1F8EFC461EC6D9AF0022BD9A /* UberCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EFC451EC6D9AF0022BD9A /* UberCloneTests.swift */; };
 		1F8EFC511EC6D9AF0022BD9A /* UberCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EFC501EC6D9AF0022BD9A /* UberCloneUITests.swift */; };
+		1F8EFC601EC6D9E30022BD9A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC5F1EC6D9E30022BD9A /* Parse.framework */; };
+		1F8EFC621EC6D9EA0022BD9A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC611EC6D9EA0022BD9A /* Bolts.framework */; };
+		1F8EFC671EC6DA450022BD9A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC661EC6DA450022BD9A /* AudioToolbox.framework */; };
+		1F8EFC691EC6DA4E0022BD9A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC681EC6DA4E0022BD9A /* CFNetwork.framework */; };
+		1F8EFC6B1EC6DA590022BD9A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC6A1EC6DA590022BD9A /* CoreLocation.framework */; };
+		1F8EFC6D1EC6DEEB0022BD9A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC6C1EC6DEEB0022BD9A /* libz.tbd */; };
+		1F8EFC6F1EC6DEF40022BD9A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC6E1EC6DEF40022BD9A /* libsqlite3.tbd */; };
+		1F8EFC711EC6DF170022BD9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC701EC6DF170022BD9A /* SystemConfiguration.framework */; };
+		1F8EFC731EC6DF270022BD9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8EFC721EC6DF270022BD9A /* QuartzCore.framework */; };
+		1FADA95E1EEB7523001E4348 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FADA95D1EEB7523001E4348 /* DriverViewController.swift */; };
+		1FADA9601EEB85A3001E4348 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FADA95F1EEB85A3001E4348 /* RequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F3C00BD1EE4CEAA0044AC20 /* RiderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
 		1F8EFC2D1EC6D9AF0022BD9A /* UberClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8EFC301EC6D9AF0022BD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F8EFC321EC6D9AF0022BD9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,18 @@
 		1F8EFC4C1EC6D9AF0022BD9A /* UberCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8EFC501EC6D9AF0022BD9A /* UberCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCloneUITests.swift; sourceTree = "<group>"; };
 		1F8EFC521EC6D9AF0022BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8EFC5F1EC6D9E30022BD9A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Frameworks/Parse.framework; sourceTree = "<group>"; };
+		1F8EFC611EC6D9EA0022BD9A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		1F8EFC631EC6D9FE0022BD9A /* UberClone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UberClone-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F8EFC661EC6DA450022BD9A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1F8EFC681EC6DA4E0022BD9A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1F8EFC6A1EC6DA590022BD9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1F8EFC6C1EC6DEEB0022BD9A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1F8EFC6E1EC6DEF40022BD9A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1F8EFC701EC6DF170022BD9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1F8EFC721EC6DF270022BD9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1FADA95D1EEB7523001E4348 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		1FADA95F1EEB85A3001E4348 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8EFC731EC6DF270022BD9A /* QuartzCore.framework in Frameworks */,
+				1F8EFC711EC6DF170022BD9A /* SystemConfiguration.framework in Frameworks */,
+				1F8EFC6F1EC6DEF40022BD9A /* libsqlite3.tbd in Frameworks */,
+				1F8EFC6D1EC6DEEB0022BD9A /* libz.tbd in Frameworks */,
+				1F8EFC6B1EC6DA590022BD9A /* CoreLocation.framework in Frameworks */,
+				1F8EFC691EC6DA4E0022BD9A /* CFNetwork.framework in Frameworks */,
+				1F8EFC671EC6DA450022BD9A /* AudioToolbox.framework in Frameworks */,
+				1F8EFC601EC6D9E30022BD9A /* Parse.framework in Frameworks */,
+				1F8EFC621EC6D9EA0022BD9A /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +111,7 @@
 		1F8EFC241EC6D9AF0022BD9A = {
 			isa = PBXGroup;
 			children = (
+				1F8EFC5E1EC6D9C70022BD9A /* Frameworks */,
 				1F8EFC2F1EC6D9AF0022BD9A /* UberClone */,
 				1F8EFC441EC6D9AF0022BD9A /* UberCloneTests */,
 				1F8EFC4F1EC6D9AF0022BD9A /* UberCloneUITests */,
@@ -103,6 +138,10 @@
 				1F8EFC371EC6D9AF0022BD9A /* Assets.xcassets */,
 				1F8EFC391EC6D9AF0022BD9A /* LaunchScreen.storyboard */,
 				1F8EFC3C1EC6D9AF0022BD9A /* Info.plist */,
+				1F8EFC631EC6D9FE0022BD9A /* UberClone-Bridging-Header.h */,
+				1F3C00BD1EE4CEAA0044AC20 /* RiderViewController.swift */,
+				1FADA95D1EEB7523001E4348 /* DriverViewController.swift */,
+				1FADA95F1EEB85A3001E4348 /* RequestViewController.swift */,
 			);
 			path = UberClone;
 			sourceTree = "<group>";
@@ -123,6 +162,22 @@
 				1F8EFC521EC6D9AF0022BD9A /* Info.plist */,
 			);
 			path = UberCloneUITests;
+			sourceTree = "<group>";
+		};
+		1F8EFC5E1EC6D9C70022BD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F8EFC721EC6DF270022BD9A /* QuartzCore.framework */,
+				1F8EFC701EC6DF170022BD9A /* SystemConfiguration.framework */,
+				1F8EFC6E1EC6DEF40022BD9A /* libsqlite3.tbd */,
+				1F8EFC6C1EC6DEEB0022BD9A /* libz.tbd */,
+				1F8EFC6A1EC6DA590022BD9A /* CoreLocation.framework */,
+				1F8EFC681EC6DA4E0022BD9A /* CFNetwork.framework */,
+				1F8EFC661EC6DA450022BD9A /* AudioToolbox.framework */,
+				1F8EFC611EC6D9EA0022BD9A /* Bolts.framework */,
+				1F8EFC5F1EC6D9E30022BD9A /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,23 +243,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Maria Notohusodo";
 				TargetAttributes = {
 					1F8EFC2C1EC6D9AF0022BD9A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = GV5NSX7P6V;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1F8EFC401EC6D9AF0022BD9A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = GV5NSX7P6V;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1F8EFC2C1EC6D9AF0022BD9A;
 					};
 					1F8EFC4B1EC6D9AF0022BD9A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = GV5NSX7P6V;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1F8EFC2C1EC6D9AF0022BD9A;
 					};
@@ -262,7 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FADA95E1EEB7523001E4348 /* DriverViewController.swift in Sources */,
 				1F8EFC331EC6D9AF0022BD9A /* ViewController.swift in Sources */,
+				1FADA9601EEB85A3001E4348 /* RequestViewController.swift in Sources */,
+				1F3C00BE1EE4CEAA0044AC20 /* RiderViewController.swift in Sources */,
 				1F8EFC311EC6D9AF0022BD9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +389,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -336,7 +399,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -359,12 +426,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -378,7 +447,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -386,7 +457,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -403,10 +478,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -415,12 +492,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GV5NSX7P6V;
+				FRAMEWORK_SEARCH_PATHS = /Users/mariain/iOS/Frameworks;
 				INFOPLIST_FILE = UberClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marianoto.UberClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "UberClone/UberClone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -428,12 +511,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GV5NSX7P6V;
+				FRAMEWORK_SEARCH_PATHS = /Users/mariain/iOS/Frameworks;
 				INFOPLIST_FILE = UberClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marianoto.UberClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "UberClone/UberClone-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -447,7 +535,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marianoto.UberCloneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberClone.app/UberClone";
 			};
 			name = Debug;
@@ -462,7 +551,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marianoto.UberCloneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberClone.app/UberClone";
 			};
 			name = Release;
@@ -476,7 +566,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marianoto.UberCloneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = UberClone;
 			};
 			name = Debug;
@@ -490,7 +581,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marianoto.UberCloneUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = UberClone;
 			};
 			name = Release;
@@ -514,6 +606,7 @@
 				1F8EFC571EC6D9AF0022BD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F8EFC581EC6D9AF0022BD9A /* Build configuration list for PBXNativeTarget "UberCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +615,7 @@
 				1F8EFC5A1EC6D9AF0022BD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F8EFC5B1EC6D9AF0022BD9A /* Build configuration list for PBXNativeTarget "UberCloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +624,7 @@
 				1F8EFC5D1EC6D9AF0022BD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
